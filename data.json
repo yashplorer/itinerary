@@ -1,0 +1,61 @@
+data = [
+	{
+		"id": "two",
+		"name": "Wednesday",
+		"events": {
+		 	"8:00":	"Breakfast",
+		 	"9:00":	"Beach",
+		 	"10:00":"Coffee",
+		 	"11:00":"Park",
+		 	"12:00":"Walk",
+		 	"1:00": "Lunch",
+		 	"2:00": "Rest"
+		}
+	},
+	{
+		"id": "three",
+		"name": "Thursday"
+	},
+	{
+		"id": "four",
+		"name": "Friday"
+	},
+	{
+		"id": "five",
+		"name": "Saturday"
+	},
+	{
+		"id": "six",
+		"name": "Sunday"
+	},
+	{
+		"id": "seven",
+		"name": "Monday"
+	},
+	{
+		"id": "eight",
+		"name": "Tuesday"
+	},
+	{
+		"id": "nine",
+		"name": "Wednesday"
+	},
+	{
+		"id": "ten",
+		"name": "Thursday"
+	}
+];
+var monthNames = [
+	"January", 
+	"February", 
+	"March", 
+	"April", 
+	"May", 
+	"June", 
+	"July", 
+	"August", 
+	"September", 
+	"October", 
+	"November", 
+	"December"
+];

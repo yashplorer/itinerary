@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html ng-app="itinerary-app">
+	<head>
+		<title>Itinerary | Yash</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/numeral.js"></script>
+		<script src="js/jquery.simpleWeather.min.js"></script>
+		<script src="data.json"></script>
+
+		<script src="js/app.js"></script>
+		
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body ng-controller="Planner">
+		<div id="wrapper">
+
+			<!-- Header -->
+				<section id="header" class="skel-layers-fixed">
+					<header>
+						<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+						<h1 id="logo"><a href="#">Itinerary</a></h1>
+						<p>Nevatia 2015 Trip to Hawaii</p>
+					</header>
+					<nav id="nav">
+						<ul>
+							<li><a href="#one" class="active">Introduction</a></li>
+							<li><a href="#two">Wednesday</a></li>
+							<li><a href="#three">Thursday</a></li>
+							<li><a href="#four">Friday</a></li>
+							<li><a href="#five">Saturday</a></li>
+							<li><a href="#six">Sunday</a></li>
+							<li><a href="#seven">Monday</a></li>
+							<li><a href="#eight">Tuesday</a></li>
+							<li><a href="#nine">Wednesday</a></li>
+							<li><a href="#ten">Thursday</a></li>
+						</ul>
+					</nav>
+					<!-- <footer>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+					</footer> -->
+				</section>
+
+			<!-- Main -->
+				<div id="main">
+					<ul
+						style=" list-style-type: none;
+								margin-left: -10px;
+								padding-left: 0;
+								-webkit-padding-start:0;"
+					>
+						<li>
+							<section id='one'>
+								<div class='container'>
+									<h3>Introduction</h3>
+									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+								</div>
+							</section>
+						</li>
+						<li ng-repeat="datum in data">
+							<section id={{datum.id}}>
+								<div class='container'>
+									<h3>{{datum.name}},  {{datum.monthName}} {{datum.dayNum}}</h3>
+									<p>{{datum.summ}}</p>
+									<ul class='feature-icons'>
+										<li class='fa-building-o'>{{datum.acc}}</li>
+										<li class={{datum.weather.icon}}>{{datum.weather.text}}</li>
+									</ul>
+									<p>Schedule</p>
+									<li ng-repeat="event in data.events">{{event}}</li>
+								</div>
+							</section>
+						</li>
+					</ul>
+				</div>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</section>
+
+		</div>
+	</body>
+</html>
