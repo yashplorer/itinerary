@@ -2,6 +2,7 @@ data = [
 	{
 		"id": "two",
 		"name": "Wednesday",
+		"location": "Kailua, HI",
 		"events": {
 		 	"8:00":	"Breakfast",
 		 	"9:00":	"Beach",
@@ -14,35 +15,43 @@ data = [
 	},
 	{
 		"id": "three",
-		"name": "Thursday"
+		"name": "Thursday",
+		"location": "Kailua, HI"
 	},
 	{
 		"id": "four",
-		"name": "Friday"
+		"name": "Friday",
+		"location": "Kailua, HI"
 	},
 	{
 		"id": "five",
-		"name": "Saturday"
+		"name": "Saturday",
+		"location": "Kailua, HI"
 	},
 	{
 		"id": "six",
-		"name": "Sunday"
+		"name": "Sunday",
+		"location": "Kailua, HI"
 	},
 	{
 		"id": "seven",
-		"name": "Monday"
+		"name": "Monday",
+		"location": "Kailua, HI"
 	},
 	{
 		"id": "eight",
-		"name": "Tuesday"
+		"name": "Tuesday",
+		"location": "Kailua, HI"
 	},
 	{
 		"id": "nine",
-		"name": "Wednesday"
+		"name": "Wednesday",
+		"location": "Kailua, HI"
 	},
 	{
 		"id": "ten",
-		"name": "Thursday"
+		"name": "Thursday",
+		"location": "Kailua, HI"
 	}
 ];
 var monthNames = [

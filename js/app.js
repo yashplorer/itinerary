@@ -1,7 +1,34 @@
+
+function loadWeather($scope) {
+    $scope.data.forEach(function(datum) {
+        datum.w_text = 'loading...';
+        datum.w_temp = '0 F';
+        datum.w_icon = '';
+        $.simpleWeather({
+            location: datum.location,
+            woeid: '',
+            unit: 'c',
+            success: function(weather) {
+                datum._weather = weather;
+                datum.w_text = weather.text;
+                datum.w_temp = weather.temp;
+                datum.w_icon = weather.icon; 
+                $scope.$apply(function() {
+                    console.log('o wow it applied');
+                });       
+            }, 
+            error: function(error) {
+                datum.w_text = 'error!!!'
+            }
+        });
+    });
+}
+
 angular.module('itinerary-app', [])
     .controller('Planner', ['$scope', function($scope) {
         onLoad();
         $scope.data = processData(data);
+        loadWeather($scope);
 }])
 
 function parsePrice(argument) {
@@ -14,6 +41,9 @@ function download() {
 function onLoad(){
     //body
 }
+
+
+
 function processData(data){
     for(i in data){
         (function setsDates(){
@@ -40,8 +70,10 @@ function processData(data){
     }
     return data;
 }
+
+
 $(function onReady(){
-    (function setsWeather(){
+    /*(function setsWeather(){
         for(i in data){
             data[i].weather = {
                 "icon" : "loading...",
@@ -68,5 +100,5 @@ $(function onReady(){
                 }
             }
         })
-    })();
+    })();*/
 });
