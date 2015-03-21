@@ -91,8 +91,14 @@
 										<li class='fa-building-o'>{{datum.acc}}</li>
 										<li class="weatherIcon {{datum.w_icon}}">{{datum.w_text}}</li>
 									</ul>
-									<p>Schedule</p>
-									<li ng-repeat="event in datum.events">{{event}}</li>
+									<h4>Hit List</h4>
+									<table>
+										<tr ng-repeat="event in datum.events">
+											<td>{{event.time}}</td>
+											<td>{{event.name}}<td>
+											<td><a href="{{event.4sq}}">{{event.loc}}</a></td>
+										</tr>
+									</table>
 								</div>
 							</section>
 						</li>
