@@ -1,7 +1,34 @@
+
+function loadWeather($scope) {
+    $scope.data.forEach(function(datum) {
+        datum.w_text = 'too far out!';
+        datum.w_temp = '0';
+        datum.w_icon = "icon-69";
+        $.simpleWeather({
+            location: datum.location,
+            woeid: '',
+            unit: 'c',
+            success: function(weather) {
+                datum._weather = weather;
+                datum.w_text = weather.forecast[datum.wref].text;
+                datum.w_temp = weather.forecast[datum.wref].high;
+                datum.w_icon = "icon-" + weather.forecast[datum.wref].code; 
+                $scope.$apply(function() {
+                    console.log('o wow it applied');
+                });       
+            }, 
+            error: function(error) {
+                datum.w_text = 'error!!!'
+            }
+        });
+    });
+}
+
 angular.module('itinerary-app', [])
     .controller('Planner', ['$scope', function($scope) {
         onLoad();
         $scope.data = processData(data);
+        loadWeather($scope);
 }])
 
 function parsePrice(argument) {
@@ -14,6 +41,9 @@ function download() {
 function onLoad(){
     //body
 }
+
+
+
 function processData(data){
     for(i in data){
         (function setsDates(){
@@ -37,36 +67,15 @@ function processData(data){
         })();
         data[i].monthName = monthNames[data[i].date.getMonth()];
         data[i].dayNum = numeral(data[i].date.getDate()).format('0o');
+        data[i].wref = (function findsForecastRef(){
+            var today = new Date().getDate();
+            var tomon = new Date().getMonth();
+            if(today < data[i].date.getDate() && tomon === data[i].date.getMonth()){
+                return data[i].date.getDate() - today;
+            } else if (today < data[i].date.getDate() && tomon < data[i].date.getMonth()){
+                return (31-today) + data[i].date.getDate();
+            }
+        })();
     }
     return data;
 }
-$(function onReady(){
-    (function setsWeather(){
-        for(i in data){
-            data[i].weather = {
-                "icon" : "loading...",
-                "temp" : "loading...",
-                "units" : "loading...",
-                "text" : "loading..."
-            };
-        }
-    })();
-    (function(){
-        $.simpleWeather({
-            for(i in data){
-                location: 'Kailua, HI',
-                woeid: '',
-                unit: 'c',
-                success: function(w) {
-                    data[i].weather.icon = "icon-" + w.code;
-                    data[i].weather.temp = w.temp;
-                    data[i].weather.units = w.units.temp;
-                    data[i].weather.text = w.forecast[1].text;
-                },
-                error: function(error) {
-                    console.log("whoops" + error);
-                }
-            }
-        })
-    })();
-});
