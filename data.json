@@ -1,5 +1,4 @@
 data = [
-<<<<<<< HEAD
     {
         "id": "two",
         "name": "Wednesday",
@@ -340,4 +339,3 @@ var monthNames = [
 	"November", 
 	"December"
 ];
->>>>>>> origin/gh-pages

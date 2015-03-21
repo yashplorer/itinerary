@@ -1,26 +1,26 @@
 
 function loadWeather($scope) {
+    $.simpleWeather({
+        location: datum.location,
+        woeid: '',
+        unit: 'c',
+        success: function(weather) {
+            datum._weather = weather;
+            datum.w_text = weather.forecast[datum.wref].text;
+            datum.w_temp = weather.forecast[datum.wref].high;
+            datum.w_icon = "icon-" + weather.forecast[datum.wref].code; 
+            $scope.$apply(function() {
+                console.log('o wow it applied');
+            });       
+        }, 
+        error: function(error) {
+            datum.w_text = 'error!!!'
+        }
+    });
     $scope.data.forEach(function(datum) {
         datum.w_text = 'too far out!';
         datum.w_temp = '0';
         datum.w_icon = "icon-69";
-        $.simpleWeather({
-            location: datum.location,
-            woeid: '',
-            unit: 'c',
-            success: function(weather) {
-                datum._weather = weather;
-                datum.w_text = weather.forecast[datum.wref].text;
-                datum.w_temp = weather.forecast[datum.wref].high;
-                datum.w_icon = "icon-" + weather.forecast[datum.wref].code; 
-                $scope.$apply(function() {
-                    console.log('o wow it applied');
-                });       
-            }, 
-            error: function(error) {
-                datum.w_text = 'error!!!'
-            }
-        });
     });
 }
 
