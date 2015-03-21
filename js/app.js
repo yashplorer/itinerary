@@ -79,35 +79,3 @@ function processData(data){
     }
     return data;
 }
-
-
-$(function onReady(){
-    /*(function setsWeather(){
-        for(i in data){
-            data[i].weather = {
-                "icon" : "loading...",
-                "temp" : "loading...",
-                "units" : "loading...",
-                "text" : "loading..."
-            };
-        }
-    })();
-    (function(){
-        $.simpleWeather({
-            for(i in data){
-                location: 'Kailua, HI',
-                woeid: '',
-                unit: 'c',
-                success: function(w) {
-                    data[i].weather.icon = "icon-" + w.code;
-                    data[i].weather.temp = w.temp;
-                    data[i].weather.units = w.units.temp;
-                    data[i].weather.text = w.forecast[1].text;
-                },
-                error: function(error) {
-                    console.log("whoops" + error);
-                }
-            }
-        })
-    })();*/
-});
