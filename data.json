@@ -1,61 +1,172 @@
 data = [
-	{
-		"id": "two",
-		"name": "Wednesday",
-		"events": {
-		 	"8:00":	"Breakfast",
-		 	"9:00":	"Beach",
-		 	"10:00":"Coffee",
-		 	"11:00":"Park",
-		 	"12:00":"Walk",
-		 	"1:00": "Lunch",
-		 	"2:00": "Rest"
-		}
-	},
-	{
-		"id": "three",
-		"name": "Thursday"
-	},
-	{
-		"id": "four",
-		"name": "Friday"
-	},
-	{
-		"id": "five",
-		"name": "Saturday"
-	},
-	{
-		"id": "six",
-		"name": "Sunday"
-	},
-	{
-		"id": "seven",
-		"name": "Monday"
-	},
-	{
-		"id": "eight",
-		"name": "Tuesday"
-	},
-	{
-		"id": "nine",
-		"name": "Wednesday"
-	},
-	{
-		"id": "ten",
-		"name": "Thursday"
-	}
-];
-var monthNames = [
-	"January", 
-	"February", 
-	"March", 
-	"April", 
-	"May", 
-	"June", 
-	"July", 
-	"August", 
-	"September", 
-	"October", 
-	"November", 
-	"December"
-];
+    {
+        "id": "two",
+        "name": "Wednesday",
+        "location": "Kailua, HI",
+        "events": [
+            {
+                "name": "Arrival",
+                "time": "7:53p",
+                "loc": "Kona International Airport",
+                "4sq": "http://4sq.com/8K6nXr",
+                "$$hashKey": "00L"
+            },
+            {
+                "name": "Dinner",
+                "time": "",
+                "loc": "Kanaka Kava",
+                "4sq": "http://4sq.com/cwZPr5",
+                "$$hashKey": "00M"
+            }
+        ]
+    },
+    {
+        "id": "three",
+        "name": "Thursday",
+        "location": "Kailua, HI",
+        "events": [
+            {
+                "name": "Coffee / Breakfast",
+                "time": "8:30a+",
+                "loc": "Greenwell Coffee Plantation",
+                "4sq": "http://4sq.com/dwjxFe",
+                "$$hashKey": "00P"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kealakekua Bay SHP",
+                "4sq": "http://4sq.com/b5a1dT",
+                "$$hashKey": "00Q"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Puʻuhonua o Hōnaunau NHP",
+                "4sq": "http://4sq.com/craAA0",
+                "$$hashKey": "00R"
+            },
+            {
+                "name": "Lunch",
+                "time": "",
+                "loc": "Ka' U Farmers' Market",
+                "4sq": "http://4sq.com/cc9wq0d",
+                "$$hashKey": "00S"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Punalu‘u Beach",
+                "4sq": "http://4sq.com/cc9wq0d",
+                "$$hashKey": "00T"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kula Kai Caverns",
+                "4sq": "http://www.kulakaicaverns.com",
+                "$$hashKey": "00U"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Hōnaunau Bay Puʻuhonua",
+                "4sq": "http://4sq.com/ckfJvb",
+                "$$hashKey": "00V"
+            }
+        ]
+    },
+    {
+        "id": "four",
+        "name": "Friday",
+        "location": "Kailua, HI",
+        "events": [
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "La'Aloa Bay Beach",
+                "4sq": "http://4sq.com/aRdg1F",
+                "$$hashKey": "013"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Hulihe‘e Palace",
+                "4sq": "http://4sq.com/oLpBPS",
+                "$$hashKey": "014"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Mokuaikaua Church",
+                "4sq": "http://4sq.com/assllr",
+                "$$hashKey": "015"
+            },
+            {
+                "name": "Lunch / Coffee",
+                "time": "",
+                "loc": "Mountain Thunder Coffee Plantation",
+                "4sq": "http://4sq.com/bzS9Kg",
+                "$$hashKey": "016"
+            },
+            {
+                "name": "Campground?",
+                "time": "",
+                "loc": "Queen Liliuokalani Children's Center",
+                "4sq": "http://4sq.com/U6Fyey",
+                "$$hashKey": "017"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Makalawena Beach",
+                "4sq": "http://4sq.com/4yrJOz",
+                "$$hashKey": "018"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Manini'owali Beach",
+                "4sq": "http://4sq.com/9wo2Df",
+                "$$hashKey": "019"
+            },
+            {
+                "name": "Four Seasons Resort Hualalai",
+                "time": "",
+                "loc": "Historic Ka`upulehu",
+                "4sq": "http://4sq.com/9mu0L2",
+                "$$hashKey": "01A"
+            }
+        ]
+    },
+    {
+        "id": "five",
+        "name": "Saturday",
+        "location": "Kailua, HI"
+    },
+    {
+        "id": "six",
+        "name": "Sunday",
+        "location": "Kailua, HI"
+    },
+    {
+        "id": "seven",
+        "name": "Monday",
+        "location": "Kailua, HI"
+    },
+    {
+        "id": "eight",
+        "name": "Tuesday",
+        "location": "Kailua, HI"
+    },
+    {
+        "id": "nine",
+        "name": "Wednesday",
+        "location": "Kailua, HI"
+    },
+    {
+        "id": "ten",
+        "name": "Thursday",
+        "location": "Kailua, HI"
+    }
+]
