@@ -85,14 +85,14 @@
 						<li ng-repeat="datum in data">
 							<section id={{datum.id}}>
 								<div class='container'>
-									<h3>{{datum.name}},  {{datum.monthName}} {{datum.dayNum}}</h3>
+									<h3>{{datum.name}}, {{datum.monthName}} {{datum.dayNum}}</h3>
 									<p>{{datum.summ}}</p>
 									<ul class='feature-icons'>
 										<li class='fa-building-o'>{{datum.acc}}</li>
-										<li class={{datum.weather.icon}}>{{datum.w_text}}</li>
+										<li class="weatherIcon {{datum.w_icon}}">{{datum.w_text}}</li>
 									</ul>
 									<p>Schedule</p>
-									<li ng-repeat="event in data.events">{{event}}</li>
+									<li ng-repeat="event in datum.events">{{event}}</li>
 								</div>
 							</section>
 						</li>

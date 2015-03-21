@@ -1,18 +1,18 @@
 
 function loadWeather($scope) {
     $scope.data.forEach(function(datum) {
-        datum.w_text = 'loading...';
-        datum.w_temp = '0 F';
-        datum.w_icon = '';
+        datum.w_text = 'too far out!';
+        datum.w_temp = '0';
+        datum.w_icon = "icon-69";
         $.simpleWeather({
             location: datum.location,
             woeid: '',
             unit: 'c',
             success: function(weather) {
                 datum._weather = weather;
-                datum.w_text = weather.text;
-                datum.w_temp = weather.temp;
-                datum.w_icon = weather.icon; 
+                datum.w_text = weather.forecast[datum.wref].text;
+                datum.w_temp = weather.forecast[datum.wref].high;
+                datum.w_icon = "icon-" + weather.forecast[datum.wref].code; 
                 $scope.$apply(function() {
                     console.log('o wow it applied');
                 });       
@@ -67,6 +67,15 @@ function processData(data){
         })();
         data[i].monthName = monthNames[data[i].date.getMonth()];
         data[i].dayNum = numeral(data[i].date.getDate()).format('0o');
+        data[i].wref = (function findsForecastRef(){
+            var today = new Date().getDate();
+            var tomon = new Date().getMonth();
+            if(today < data[i].date.getDate() && tomon === data[i].date.getMonth()){
+                return data[i].date.getDate() - today;
+            } else if (today < data[i].date.getDate() && tomon < data[i].date.getMonth()){
+                return (31-today) + data[i].date.getDate();
+            }
+        })();
     }
     return data;
 }
