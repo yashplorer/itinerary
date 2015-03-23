@@ -42,8 +42,8 @@
 			color: #4acaa8 !important;
 		}
 
-	strong, b {
-		color: #777;
+	strong, b, .strong {
+		color: #b77;
 		font-weight: 700;
 	}
 

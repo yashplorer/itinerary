@@ -64,6 +64,12 @@ data = [
                 "time": "",
                 "loc": "Hōnaunau Bay Puʻuhonua",
                 "4sq": "http://4sq.com/ckfJvb"
+            },
+            {
+                "name": "Dinner",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
             }
         ]
     },
@@ -72,6 +78,12 @@ data = [
         "name": "Friday",
         "location": "Kailua, HI",
         "events": [
+            {
+                "name": "Breakfast",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
+            },
             {
                 "name": "Visit",
                 "time": "",
@@ -92,7 +104,7 @@ data = [
             },
             {
                 "name": "Lunch / Coffee",
-                "time": "",
+                "time": "10:00a+",
                 "loc": "Mountain Thunder Coffee Plantation",
                 "4sq": "http://4sq.com/bzS9Kg"
             },
@@ -119,6 +131,12 @@ data = [
                 "time": "",
                 "loc": "Historic Ka`upulehu",
                 "4sq": "http://4sq.com/9mu0L2"
+            },
+            {
+                "name": "Dinner",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
             }
         ]
     },
@@ -127,6 +145,12 @@ data = [
         "name": "Saturday",
         "location": "Kailua, HI",
         "events": [
+            {   
+                "name": "Breakfast",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
+            },
             {
                 "name": "Visit",
                 "time": "",
@@ -139,12 +163,19 @@ data = [
                 "loc": "Kolekole Beach Park",
                 "4sq": "http://4sq.com/aV8qft"
             },
+            {   
+                "name": "Lunch",
+                "time": "",
+                "loc": "Hilo Bay Cafe",
+                "4sq": "http://4sq.com/17gQnlm"
+            },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Akaka Falls State Park",
                 "4sq": "http://4sq.com/buz6Ny"
             },
+
             {
                 "name": "Visit",
                 "time": "",
@@ -153,7 +184,7 @@ data = [
             },
             {
                 "name": "Visit",
-                "time": "",
+                "time": "9:00a+",
                 "loc": "Hawaii Tropical Botanical Garden",
                 "4sq": "http://4sq.com/c77iwQ"
             },
@@ -174,6 +205,12 @@ data = [
                 "time": "",
                 "loc": "Coconut Island Park",
                 "4sq": "http://4sq.com/aqZrSz"
+            },
+            {   
+                "name": "Dinner",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
             }
         ]
     },
@@ -182,6 +219,12 @@ data = [
         "name": "Sunday",
         "location": "Kailua, HI",
         "events": [
+            {
+                "name": "Breakfast",
+                "time": "",
+                "loc": "Island Lava Java Bistro & Grill",
+                "4sq": "http://4sq.com/5j5Pft"
+            },
             {
                 "name": "Visit",
                 "time": "",
@@ -193,6 +236,12 @@ data = [
                 "time": "All Day",
                 "loc": "Mauna Kea State Park",
                 "4sq": "http://4sq.com/5WiyLL"
+            },
+            {
+                "name": "Pack Lunch",
+                "time": "",
+                "loc": "On the mountain",
+                "4sq": "#"
             },
             {
                 "name": "Visit",
@@ -211,6 +260,12 @@ data = [
                 "time": "",
                 "loc": "Kipuka Pu'u Huluhulu",
                 "4sq": "http://4sq.com/a8X0VB"
+            },
+            {   
+                "name": "Dinner",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
             }
         ]
     },
@@ -219,6 +274,12 @@ data = [
         "name": "Monday",
         "location": "Kailua, HI",
         "events": [
+            {   
+                "name": "Breakfast",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
+            },
             {
                 "name": "Visit",
                 "time": "",
@@ -248,6 +309,12 @@ data = [
                 "time": "",
                 "loc": "Thurston Lava Tube",
                 "4sq": "http://4sq.com/aXBwq6"
+            },
+            {
+                "name": "Lunch",
+                "time": "",
+                "loc": "Cafe Ohi'a",
+                "4sq": "http://4sq.com/cAPq8B"
             },
             {
                 "name": "Visit",
@@ -284,6 +351,12 @@ data = [
                 "time": "",
                 "loc": "Kipuka Puaulu",
                 "4sq": "http://4sq.com/qd9qNF"
+            },
+            {   
+                "name": "Dinner",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
             }
         ]
     },
@@ -292,6 +365,12 @@ data = [
         "name": "Tuesday",
         "location": "Kailua, HI",
         "events": [
+            {   
+                "name": "Breakfast",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
+            },
             {
                 "name": "Visit",
                 "time": "",
@@ -311,6 +390,12 @@ data = [
                 "4sq": "http://4sq.com/4FYIGy"
             },
             {
+                "name": "Lunch",
+                "time": "",
+                "loc": "Under the Bodhi Tree",
+                "4sq": "http://4sq.com/1jrdxwg"
+            },
+            {
                 "name": "Visit",
                 "time": "",
                 "loc": "Māhukona Beach Park",
@@ -327,6 +412,12 @@ data = [
                 "time": "",
                 "loc": "Waipiʻo Valley",
                 "4sq": "http://4sq.com/cUe0sB"
+            },
+            {   
+                "name": "Dinner",
+                "time": "",
+                "loc": "Residence",
+                "4sq": "#"
             }
         ]
     },

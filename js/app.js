@@ -51,6 +51,15 @@ function processData(data){
             else
                 data[i].date = new Date(2015, 3, i - 6, 0, 0, 0, 0);
         })();
+        (function boldensMeals(){
+            for(j in data[i].events){
+                if( data[i].events[j].name.indexOf("Breakfast") > -1 ||
+                    data[i].events[j].name.indexOf("Lunch") > -1 ||
+                    data[i].events[j].name.indexOf("Dinner") > -1
+                )
+                    data[i].events[j].class = "strong";
+            }
+        })();
         (function setsAccomodations(){
             if( data[i].date.getMonth() === 2    &&
                 data[i].date.getDate() >= 25     &&
