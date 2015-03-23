@@ -82,7 +82,7 @@
 								</div>
 							</section>
 						</li>
-						<li ng-repeat="datum in data">
+						<li ng-repeat="datum in data track by $index">
 							<section id={{datum.id}}>
 								<div class='container'>
 									<h3>{{datum.name}}, {{datum.monthName}} {{datum.dayNum}}</h3>
@@ -93,7 +93,7 @@
 									</ul>
 									<h4>Hit List</h4>
 									<table>
-										<tr ng-repeat="event in datum.events">
+										<tr ng-repeat="event in datum.events track by $index">
 											<td>{{event.time}}</td>
 											<td>{{event.name}}<td>
 											<td><a href="{{event.4sq}}">{{event.loc}}</a></td>
@@ -109,7 +109,7 @@
 				<section id="footer">
 					<div class="container">
 						<ul class="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Yash Plorer. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
 				</section>

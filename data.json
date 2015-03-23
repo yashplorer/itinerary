@@ -8,15 +8,13 @@ data = [
                 "name": "Arrival",
                 "time": "7:53p",
                 "loc": "Kona International Airport",
-                "4sq": "http://4sq.com/8K6nXr",
-                "$$hashKey": "00L"
+                "4sq": "http://4sq.com/8K6nXr"
             },
             {
                 "name": "Dinner",
                 "time": "",
                 "loc": "Kanaka Kava",
-                "4sq": "http://4sq.com/cwZPr5",
-                "$$hashKey": "00M"
+                "4sq": "http://4sq.com/cwZPr5"
             }
         ]
     },
@@ -29,50 +27,43 @@ data = [
                 "name": "Coffee / Breakfast",
                 "time": "8:30a+",
                 "loc": "Greenwell Coffee Plantation",
-                "4sq": "http://4sq.com/dwjxFe",
-                "$$hashKey": "00P"
+                "4sq": "http://4sq.com/dwjxFe"
             },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Kealakekua Bay SHP",
-                "4sq": "http://4sq.com/b5a1dT",
-                "$$hashKey": "00Q"
+                "4sq": "http://4sq.com/b5a1dT"
             },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Puʻuhonua o Hōnaunau NHP",
-                "4sq": "http://4sq.com/craAA0",
-                "$$hashKey": "00R"
+                "4sq": "http://4sq.com/craAA0"
             },
             {
                 "name": "Lunch",
                 "time": "",
                 "loc": "Ka' U Farmers' Market",
-                "4sq": "http://4sq.com/cc9wq0d",
-                "$$hashKey": "00S"
+                "4sq": "http://4sq.com/cc9wq0d"
             },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Punalu‘u Beach",
-                "4sq": "http://4sq.com/cc9wq0d",
-                "$$hashKey": "00T"
+                "4sq": "http://4sq.com/cc9wq0d"
             },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Kula Kai Caverns",
-                "4sq": "http://www.kulakaicaverns.com",
-                "$$hashKey": "00U"
+                "4sq": "http://www.kulakaicaverns.com"
             },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Hōnaunau Bay Puʻuhonua",
-                "4sq": "http://4sq.com/ckfJvb",
-                "$$hashKey": "00V"
+                "4sq": "http://4sq.com/ckfJvb"
             }
         ]
     },
@@ -85,89 +76,285 @@ data = [
                 "name": "Visit",
                 "time": "",
                 "loc": "La'Aloa Bay Beach",
-                "4sq": "http://4sq.com/aRdg1F",
-                "$$hashKey": "013"
+                "4sq": "http://4sq.com/aRdg1F"
             },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Hulihe‘e Palace",
-                "4sq": "http://4sq.com/oLpBPS",
-                "$$hashKey": "014"
+                "4sq": "http://4sq.com/oLpBPS"
             },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Mokuaikaua Church",
-                "4sq": "http://4sq.com/assllr",
-                "$$hashKey": "015"
+                "4sq": "http://4sq.com/assllr"
             },
             {
                 "name": "Lunch / Coffee",
                 "time": "",
                 "loc": "Mountain Thunder Coffee Plantation",
-                "4sq": "http://4sq.com/bzS9Kg",
-                "$$hashKey": "016"
+                "4sq": "http://4sq.com/bzS9Kg"
             },
             {
                 "name": "Campground?",
                 "time": "",
                 "loc": "Queen Liliuokalani Children's Center",
-                "4sq": "http://4sq.com/U6Fyey",
-                "$$hashKey": "017"
+                "4sq": "http://4sq.com/U6Fyey"
             },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Makalawena Beach",
-                "4sq": "http://4sq.com/4yrJOz",
-                "$$hashKey": "018"
+                "4sq": "http://4sq.com/4yrJOz"
             },
             {
                 "name": "Visit",
                 "time": "",
                 "loc": "Manini'owali Beach",
-                "4sq": "http://4sq.com/9wo2Df",
-                "$$hashKey": "019"
+                "4sq": "http://4sq.com/9wo2Df"
             },
             {
                 "name": "Four Seasons Resort Hualalai",
                 "time": "",
                 "loc": "Historic Ka`upulehu",
-                "4sq": "http://4sq.com/9mu0L2",
-                "$$hashKey": "01A"
+                "4sq": "http://4sq.com/9mu0L2"
             }
         ]
     },
     {
         "id": "five",
         "name": "Saturday",
-        "location": "Kailua, HI"
+        "location": "Kailua, HI",
+        "events": [
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Laupāhoehoe Point County Park",
+                "4sq": "http://4sq.com/cUv4E5"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kolekole Beach Park",
+                "4sq": "http://4sq.com/aV8qft"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Akaka Falls State Park",
+                "4sq": "http://4sq.com/buz6Ny"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Pepe‘ekeo Point",
+                "4sq": "http://4sq.com/nhSluD"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Hawaii Tropical Botanical Garden",
+                "4sq": "http://4sq.com/c77iwQ"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Rainbow Falls Park",
+                "4sq": "http://4sq.com/dp48Fl"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Lili‘uokalani Park And Gardens",
+                "4sq": "http://4sq.com/8oGimd"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Coconut Island Park",
+                "4sq": "http://4sq.com/aqZrSz"
+            }
+        ]
     },
     {
         "id": "six",
         "name": "Sunday",
-        "location": "Kailua, HI"
+        "location": "Kailua, HI",
+        "events": [
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Mauna Kea Observatory Complex",
+                "4sq": "http://4sq.com/d1aPf0"
+            },
+            {
+                "name": "Visit",
+                "time": "All Day",
+                "loc": "Mauna Kea State Park",
+                "4sq": "http://4sq.com/5WiyLL"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Mauna Kea Visitor Information Station",
+                "4sq": "http://4sq.com/bdbgEF"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Mauna Kea Summit",
+                "4sq": "http://4sq.com/1c9ZTUJ"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kipuka Pu'u Huluhulu",
+                "4sq": "http://4sq.com/a8X0VB"
+            }
+        ]
     },
     {
         "id": "seven",
         "name": "Monday",
-        "location": "Kailua, HI"
+        "location": "Kailua, HI",
+        "events": [
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kapoho Tide Pools",
+                "4sq": "http://4sq.com/1fXNavj"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kalapana Lava Viewing",
+                "4sq": "http://4sq.com/d1lLeX"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Chain Of Craters Road",
+                "4sq": "http://4sq.com/9eryhc"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Pu’u Huluhulu",
+                "4sq": "http://4sq.com/qLw9hv"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Thurston Lava Tube",
+                "4sq": "http://4sq.com/aXBwq6"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kīlauea Iki Crater Trailhead",
+                "4sq": "http://4sq.com/k6BUzl"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kīlauea Iki Crater Overlook",
+                "4sq": "http://4sq.com/9AVDbm"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kilauea Volcano",
+                "4sq": "http://4sq.com/hbiFGd"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Thomas A. Jaggar Museum",
+                "4sq": "http://4sq.com/dyDQA5"
+            },
+            {
+                "name": "Visit",
+                "time": "All Day",
+                "loc": "Hawai'i Volcanoes National Park",
+                "4sq": "http://4sq.com/bRzD90"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Kipuka Puaulu",
+                "4sq": "http://4sq.com/qd9qNF"
+            }
+        ]
     },
     {
         "id": "eight",
         "name": "Tuesday",
-        "location": "Kailua, HI"
+        "location": "Kailua, HI",
+        "events": [
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Waialea Beach",
+                "4sq": "http://4sq.com/bfqPWR"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Hāpuna Beach SRA",
+                "4sq": "http://4sq.com/5SNfEm"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Mauna Kea Beach",
+                "4sq": "http://4sq.com/4FYIGy"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Māhukona Beach Park",
+                "4sq": "http://4sq.com/178DVSN"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Pololu Lookout",
+                "4sq": "http://4sq.com/qhfVIL"
+            },
+            {
+                "name": "Visit",
+                "time": "",
+                "loc": "Waipiʻo Valley",
+                "4sq": "http://4sq.com/cUe0sB"
+            }
+        ]
     },
     {
         "id": "nine",
         "name": "Wednesday",
-        "location": "Kailua, HI"
+        "location": "Kailua, HI",
+        "events": [
+            {
+                "name": "Visit",
+                "time": "All Day",
+                "loc": "Hotel 'nanigans",
+                "4sq": "#"
+            }
+        ]
     },
     {
         "id": "ten",
         "name": "Thursday",
-        "location": "Kailua, HI"
+        "location": "Kailua, HI",
+        "events": [
+            {
+                "name": "Visit",
+                "time": "All Day",
+                "loc": "Hotel 'nanigans",
+                "4sq": "#"
+            }
+        ]
     }
 ];
 var monthNames = [
